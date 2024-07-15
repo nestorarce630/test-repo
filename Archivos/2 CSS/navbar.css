@@ -1,0 +1,42 @@
+.nav-link{
+    display: inline-block;
+    background: sienna;
+    color: #FFFFFF;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+
+.nav-link:hover{
+    background:beige;
+}
+
+nav{
+   background: sienna;
+   padding: 10px;
+   display: flex;
+   justify-content:space-around;
+}
+.nav-button{
+    background: sienna;
+    color: #FFFFFF;
+    padding: 10px 0;
+    border: 2px solid #fff;
+    display: none;
+}
+
+@media (max-width: 600px){
+    nav{
+        background: black;
+        flex-direction: column;
+    }
+    .nav-link{
+        margin: 10px 0;
+    }
+    .nav-button{
+        display: inline-block;
+
+    }
+    .disappear{
+        display: none;
+    }
+}

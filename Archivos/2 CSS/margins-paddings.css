@@ -1,0 +1,14 @@
+h1{
+    background: #973131;
+    /* margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 200px; */
+    /* margin: 100px; */
+    /* margin: 200px 100px; */
+    margin: 100px 10px 20px 500px;
+    /* margin: Arriba, derecha, abajo, izquieda */
+}
+p{
+    background: #E0A75E;
+    padding: 100px;
+}

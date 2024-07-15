@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar with Icons</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="navbar.css">
+</head>
+<body>
+    <nav>
+        <button class="nav-button" onclick="action()">Menu</button>
+        <a href="#" class="nav-link disappear"><i class="fas fa-home"></i> Main</a>
+        <a href="#" class="nav-link disappear"><i class="fas fa-info-circle"></i> About us</a>
+        <a href="#" class="nav-link disappear"><i class="fas fa-cog"></i> Services</a>
+        <a href="#" class="nav-link disappear"><i class="fas fa-share-alt"></i> Follow us!</a>
+    </nav>
+
+    <script>
+        function action(){
+            console.log("first")
+            var ankle = document.getElementsByClassName('nav-link');
+            for (var i = 0; i < ankle.length; i++) {
+                ankle[i].classList.toggle('disappear')
+                
+            }
+        }
+    </script>
+</body>
+</html>
